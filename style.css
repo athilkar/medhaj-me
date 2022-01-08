@@ -234,10 +234,14 @@ h3{
     font-size: 1rem;
     color: rgba(0, 0, 0, 1);
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
     justify-content: space-between;
     padding-bottom: 30px;
 
+  }
+
+  .copyright{
+    text-align: right;
   }
 
   h2{

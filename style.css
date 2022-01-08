@@ -242,6 +242,11 @@ h3{
 
   .copyright{
     text-align: right;
+    font-size: 0.80rem;
+  }
+
+  .scratch{
+    font-size: 0.80rem;
   }
 
   h2{

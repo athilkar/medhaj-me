@@ -231,10 +231,10 @@ h3{
 
   footer {
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgba(0, 0, 0, 1);
     display: flex;
-    /*flex-direction: row; */
+    flex-direction: row;
     justify-content: space-between;
     padding-bottom: 30px;
 
@@ -242,12 +242,9 @@ h3{
 
   .copyright{
     text-align: right;
-    font-size: 0.80rem;
   }
 
-  .scratch{
-    font-size: 0.80rem;
-  }
+
 
   h2{
     font-family: 'Lato', sans-serif;

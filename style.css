@@ -290,6 +290,13 @@ h3{
   .right {
     left: 0%;
   }
+
+
+  /* Reduce font size of collapsible bullet points in mobile*/
+  .collapse {
+  padding-left: 0.8em;
+  font-size: 1rem;
+  }
   
 }
 
@@ -328,7 +335,7 @@ h3{
 }
 
 .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';   /* Unicode character for "plus" sign (+) */ 
   font-size: 13px;
   color: white;
   float: right;
@@ -337,4 +344,10 @@ h3{
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Padding for bullet points within the collapsible highlights section*/
+.collapse {
+  padding-left: 0.8em;
+  font-size: 1.2rem;
 }

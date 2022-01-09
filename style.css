@@ -270,7 +270,7 @@ h3{
   .container {
     width: 100%;
     padding-left: 45px; /* original 70px*/
-    padding-right: 25px;
+    padding-right: 10px; /*original 25px*/
   }
 
 /* Make sure that all arrows are pointing leftwards */

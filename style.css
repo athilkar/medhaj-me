@@ -263,19 +263,19 @@ h3{
 
   /* Place the timelime to the left */
   .timeline::after {
-    left: 31px;
+    left: 17px; /* original 31px*/
   }
 
 /* Full-width containers */
   .container {
     width: 100%;
-    padding-left: 70px;
+    padding-left: 45px; /* original 70px*/
     padding-right: 25px;
   }
 
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
-    left: 60px;
+    left: 35px; /* original 60px*/
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
@@ -283,7 +283,7 @@ h3{
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    left: 1px; /* original 15px*/
   }
 
 /* Make all right containers behave like the left ones */

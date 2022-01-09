@@ -39,7 +39,7 @@
     <div>
         <p><a href="index.html">&#8592; Home</a></p>
         <h1>
-            my experiences
+            my professional experiences
         </h1>
         <p>There have been so many experiences over the last few years that have had a lasting impact on me. Here are a few. </p>
         </div><br>
@@ -94,6 +94,7 @@
 
     </div>
 -->
+
     <div class="timeline">
         <div class="container left">
           <div class="content">
@@ -115,7 +116,19 @@
             <div class="content">
                 <h2>2017</h2>
                 <h3>Joined Procter & Gamble in Toronto</h3>
-                <p>First taste of working at a global company.</p>
+                <p>This was my first taste of working for a global company. I was on the supply chain team focused on making improvements to P&Gs $30 billion North American supply chain (daunting, I know!). Some of my highlights include:</p>
+                
+                <button type="button" class="collapsible">Highlights</button>
+                <div class="kcontent">
+                    <ul>
+                        <li>Successfully implementing a self-initiated gamification project to improve tester engagement and gather data on tester performance; work recognized by Director in Germany</li>
+                        <br>
+                        <li>Leading a global team responsible for testing major updates to P&G’s North American supply chain network</li>
+                        <br>
+                        <li>Collaborating with business and technical teams to automate testing of the order management tool which would reduce testing time from 3 months to 2 weeks per year</li>
+    
+                    </ul>
+                </div>
                 <img src="images/PG_Canada.JPG" alt="P&G Team photo" style="width: 100%;">
             </div>
           </div>
@@ -187,6 +200,24 @@
     </div>
     <br>
     <p style="text-align: right; margin-bottom: 0%;"><a href="musings.html">My musings &#8594;</a></p>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var kcontent = this.nextElementSibling;
+            if (kcontent.style.display === "block") {
+            kcontent.style.display = "none";
+            } else {
+            kcontent.style.display = "block";
+            }
+        });
+        }
+    </script>
     
 </body>
 

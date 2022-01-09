@@ -297,18 +297,26 @@ h3{
   padding-left: 0.8em;
   font-size: 1rem;
   }
+
+  /* Specifications for how the content in the timeline will appear on mobile*/
+  .content {
+    padding: 20px 15px; /*original 20px 30px*/ 
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
   
 }
 
-@media screen and (max-width:360px) {
+/*@media screen and (max-width:360px) {
 
   .collapse {
     padding-left: 0.6em;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     }
 
 
-}
+}*/
 
 /*
   *{
